@@ -1,11 +1,15 @@
 import React from 'react';
+import Header from './components/Header';
+import PortfolioMain from './containers/PortfolioMain';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Under Construction</h1>
-    </div>
+    <>
+      <div className="App">
+        <PortfolioMain/>
+      </div>
+    </>
   );
 }
 
