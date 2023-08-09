@@ -8,6 +8,7 @@ function App() {
     <>
       <div className="App">
         <PortfolioMain/>
+        <p>under constructions</p>
       </div>
     </>
   );
