@@ -1,8 +1,8 @@
 {
-  "name": "james_workshop",
+  "name": "James_Workshop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yatjam.github.io/james_workshop",
+  "homepage": "https://yatjam.github.io/James_Workshop",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

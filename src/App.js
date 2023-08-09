@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="App">
         <PortfolioMain/>
-        <p>under constructions</p>
+        <h2>under constructions</h2>
       </div>
     </>
   );
