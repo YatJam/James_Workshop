@@ -38,7 +38,7 @@ const ProjectWrapper = styled.div`
     align-items: center;
 `
 
-const TextContainer = styled.div`
+const ProjectContainer = styled.div`
     display: flex;
     flex-direction: column;
     background: grey;
@@ -49,7 +49,7 @@ const TextContainer = styled.div`
 
   return (
     <ProjectWrapper>
-      <TextContainer>
+      <ProjectContainer>
         <h3>Final project: VREM (React & Spring boot)</h3>
         <div className="main">
           <button className='btns' onClick={handlePrevious}>P</button>
@@ -63,7 +63,7 @@ const TextContainer = styled.div`
             )}
           </div>
         </div>
-        </TextContainer>
+        </ProjectContainer>
     </ProjectWrapper>
   );
 }
