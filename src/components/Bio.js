@@ -3,6 +3,12 @@ import styled from 'styled-components';
 import './bio.css'
 import deathball_home from '../images/deathball_home.png'
 import deathball_players from '../images/deathball_players.png'
+import space_saga1 from '../images/Space_Saga1.png'
+import space_saga2 from '../images/space_saga2.png'
+import vrem_home from '../images/vrem_homepage.png'
+import vrem_create from '../images/vrem_create_player.png'
+import vrem_adventure from '../images/vrem_adventure_screen.png'
+import vrem_combat from '../images/vrem_combat.png'
 
 const BioWrapper = styled.div`
     display: flex;
@@ -12,8 +18,10 @@ const BioWrapper = styled.div`
 `
 
 const TextContainer = styled.div`
+    display: flex;
+    flex-direction: column;
     background: grey;
-    width: 60%;
+    width: 70%;
     border-radius: 5px;
     margin: 10px;
 `
@@ -21,9 +29,11 @@ const TextContainer = styled.div`
 const ProjectImageContainer = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px;
 `
 const Image = styled.img`
-    height: 90px;
+    height: 300px;
 `
 
 const Bio = () => {
@@ -57,12 +67,24 @@ const Bio = () => {
         </TextContainer>
         <TextContainer>
             <h3>Second project: Space Explorers (React & Mongodb)</h3>
+            <ProjectImageContainer>
+               <Image src={space_saga1} alt='space_saga_home'/>
+               <Image src={space_saga2} alt='space_saga_planet'/>
+            </ProjectImageContainer>
         </TextContainer>
         <TextContainer>
             <h3>Fantasy Adventure Game (Java)</h3>
         </TextContainer>
         <TextContainer>
             <h3>Final project: sVREM (React & Spring boot)</h3>
+            <ProjectImageContainer>
+               <Image src={vrem_home} alt='space_saga_home'/>
+               <Image src={vrem_create} alt='space_saga_planet'/>
+            </ProjectImageContainer>
+            <ProjectImageContainer>
+               <Image src={vrem_adventure} alt='space_saga_home'/>
+               <Image src={vrem_combat} alt='space_saga_planet'/>
+            </ProjectImageContainer>
         </TextContainer>
             </BioWrapper>
         </>
