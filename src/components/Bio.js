@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import './bio.css'
+import deathball_home from '../images/deathball_home.png'
+import deathball_players from '../images/deathball_players.png'
 
 const BioWrapper = styled.div`
     display: flex;
@@ -14,6 +16,14 @@ const TextContainer = styled.div`
     width: 60%;
     border-radius: 5px;
     margin: 10px;
+`
+
+const ProjectImageContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+`
+const Image = styled.img`
+    height: 90px;
 `
 
 const Bio = () => {
@@ -37,6 +47,10 @@ const Bio = () => {
         </TextContainer>
         <TextContainer>
             <h3>First project: DeathBall (Python, Flask, PostgreSQL)</h3>
+            <ProjectImageContainer>
+               <Image src={deathball_home} alt='deahtball_homepage'/>
+               <Image src={deathball_players} alt='deathball_players'/>
+            </ProjectImageContainer>
         </TextContainer>
         <TextContainer>
             <h3>Pokemon API (React)</h3>
