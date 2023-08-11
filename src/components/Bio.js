@@ -36,7 +36,7 @@ const Bio = () => {
             <p>Please click on each one to take you to their respective GitHub repo.</p>
         </TextContainer>
         <TextContainer>
-            <h3>First project: DeathBall (Python & Flask)</h3>
+            <h3>First project: DeathBall (Python, Flask, PostgreSQL)</h3>
         </TextContainer>
         <TextContainer>
             <h3>Pokemon API (React)</h3>
