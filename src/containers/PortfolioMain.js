@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Bio from '../components/Bio';
+import Projects from '../components/Projects';
 
 const PortfolioMain = () =>{
     return (
@@ -9,6 +10,7 @@ const PortfolioMain = () =>{
           <Header/>
             <p>under constructions</p>
           <Bio/>
+          <Projects/>
         </div>
       </>
     );
