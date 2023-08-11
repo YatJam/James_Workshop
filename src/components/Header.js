@@ -3,7 +3,13 @@ import styled from 'styled-components';
 import './header.css';
 
 const HeaderWrapper = styled.header`
-    background: blueviolet;
+    color: black;
+  font-weight: 800;
+  font-size: 70px;
+  font-family: 'poppins', sans-serif;
+  background-image: url('./images/workshop.png');
+  background-position: 0 0;
+  font-style: italic;
     
 `
 const HeaderImage = styled.img`
@@ -14,8 +20,7 @@ const Header = () => {
     return (
         <>
         <HeaderWrapper>
-            <HeaderImage src='/images/workshop.png' alt='pictureOfWorkshop' />
-            <h1 className='logo'>James Workshop</h1>
+            <h1 className='logo'>James Workshops</h1>
         </HeaderWrapper>
         </>
     );
