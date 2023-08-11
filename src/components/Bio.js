@@ -36,19 +36,19 @@ const Bio = () => {
             <p>Please click on each one to take you to their respective GitHub repo.</p>
         </TextContainer>
         <TextContainer>
-            <h3>DeathBall</h3>
+            <h3>First project: DeathBall (Python & Flask)</h3>
         </TextContainer>
         <TextContainer>
-            <h3>Pokemon API</h3>
+            <h3>Pokemon API (React)</h3>
         </TextContainer>
         <TextContainer>
-            <h3>Space Explorers</h3>
+            <h3>Second project: Space Explorers (React & Mongodb)</h3>
         </TextContainer>
         <TextContainer>
-            <h3>Fantasy Adventure Game</h3>
+            <h3>Fantasy Adventure Game (Java)</h3>
         </TextContainer>
         <TextContainer>
-            <h3>VREM</h3>
+            <h3>Final project: sVREM (React & Spring boot)</h3>
         </TextContainer>
             </BioWrapper>
         </>
