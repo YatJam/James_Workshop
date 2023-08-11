@@ -55,37 +55,6 @@ const Bio = () => {
             <h3>Projects completed at CodeClan</h3>
             <p>Please click on each one to take you to their respective GitHub repo.</p>
         </TextContainer>
-        <TextContainer>
-            <h3>First project: DeathBall (Python, Flask, PostgreSQL)</h3>
-            <ProjectImageContainer>
-               <Image src={deathball_home} alt='deahtball_homepage'/>
-               <Image src={deathball_players} alt='deathball_players'/>
-            </ProjectImageContainer>
-        </TextContainer>
-        <TextContainer>
-            <h3>Pokemon API (React)</h3>
-        </TextContainer>
-        <TextContainer>
-            <h3>Second project: Space Explorers (React & Mongodb)</h3>
-            <ProjectImageContainer>
-               <Image src={space_saga1} alt='space_saga_home'/>
-               <Image src={space_saga2} alt='space_saga_planet'/>
-            </ProjectImageContainer>
-        </TextContainer>
-        <TextContainer>
-            <h3>Fantasy Adventure Game (Java)</h3>
-        </TextContainer>
-        <TextContainer>
-            <h3>Final project: sVREM (React & Spring boot)</h3>
-            <ProjectImageContainer>
-               <Image src={vrem_home} alt='space_saga_home'/>
-               <Image src={vrem_create} alt='space_saga_planet'/>
-            </ProjectImageContainer>
-            <ProjectImageContainer>
-               <Image src={vrem_adventure} alt='space_saga_home'/>
-               <Image src={vrem_combat} alt='space_saga_planet'/>
-            </ProjectImageContainer>
-        </TextContainer>
             </BioWrapper>
         </>
     );

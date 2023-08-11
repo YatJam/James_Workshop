@@ -50,6 +50,66 @@ const ProjectContainer = styled.div`
   return (
     <ProjectWrapper>
       <ProjectContainer>
+        <h3>First project: DeathBall (Python, Flask, PostgreSQL)</h3>
+        <div className="main">
+          <button className='btns' onClick={handlePrevious}>P</button>
+          <img src={wordData.value} height="300" width="500" /> 
+          <button className='btns' onClick={handleNext}>N</button>
+          <div className='flex_row'>
+            {imgs.map((data,i)=>
+            <div className="thumbnail" key={i} >
+              <img className={wordData.id==i?"clicked":""} src={data.value} onClick={()=>handleClick(i)} height="70" width="100" />
+            </div>
+            )}
+          </div>
+        </div>
+        </ProjectContainer>
+        <ProjectContainer>
+        <h3>Pokemon API (React)</h3>
+        <div className="main">
+          <button className='btns' onClick={handlePrevious}>P</button>
+          <img src={wordData.value} height="300" width="500" /> 
+          <button className='btns' onClick={handleNext}>N</button>
+          <div className='flex_row'>
+            {imgs.map((data,i)=>
+            <div className="thumbnail" key={i} >
+              <img className={wordData.id==i?"clicked":""} src={data.value} onClick={()=>handleClick(i)} height="70" width="100" />
+            </div>
+            )}
+          </div>
+        </div>
+        </ProjectContainer>
+        <ProjectContainer>
+        <h3>Second project: Space Explorers (React & Mongodb)</h3>
+        <div className="main">
+          <button className='btns' onClick={handlePrevious}>P</button>
+          <img src={wordData.value} height="300" width="500" /> 
+          <button className='btns' onClick={handleNext}>N</button>
+          <div className='flex_row'>
+            {imgs.map((data,i)=>
+            <div className="thumbnail" key={i} >
+              <img className={wordData.id==i?"clicked":""} src={data.value} onClick={()=>handleClick(i)} height="70" width="100" />
+            </div>
+            )}
+          </div>
+        </div>
+        </ProjectContainer>
+        <ProjectContainer>
+        <h3>Fantasy Adventure Game (Java)</h3>
+        <div className="main">
+          <button className='btns' onClick={handlePrevious}>P</button>
+          <img src={wordData.value} height="300" width="500" /> 
+          <button className='btns' onClick={handleNext}>N</button>
+          <div className='flex_row'>
+            {imgs.map((data,i)=>
+            <div className="thumbnail" key={i} >
+              <img className={wordData.id==i?"clicked":""} src={data.value} onClick={()=>handleClick(i)} height="70" width="100" />
+            </div>
+            )}
+          </div>
+        </div>
+        </ProjectContainer>
+        <ProjectContainer>
         <h3>Final project: VREM (React & Spring boot)</h3>
         <div className="main">
           <button className='btns' onClick={handlePrevious}>P</button>
