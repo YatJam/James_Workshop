@@ -1,7 +1,11 @@
 import React from 'react';
 import Header from '../components/Header';
 import Bio from '../components/Bio';
-import Projects from '../components/Projects';
+import ProjectDeathball from '../components/ProjectDeathball';
+import ProjectPokemon from '../components/ProjectPokemon'
+import ProjectSpaceExplorers from '../components/ProjectSpaceExplorers'
+import ProjectAdventure from '../components/ProjectAdventure'
+import ProjectVrem from '../components/ProjectVrem'
 
 const PortfolioMain = () =>{
     return (
@@ -10,7 +14,11 @@ const PortfolioMain = () =>{
           <Header/>
             <p>under constructions</p>
           <Bio/>
-          <Projects/>
+          <ProjectDeathball/>
+          <ProjectPokemon/>
+          <ProjectSpaceExplorers/>
+          <ProjectAdventure/>
+          <ProjectVrem/>
         </div>
       </>
     );

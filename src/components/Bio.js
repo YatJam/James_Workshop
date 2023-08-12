@@ -1,14 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import './bio.css'
-import deathball_home from '../images/deathball_home.png'
-import deathball_players from '../images/deathball_players.png'
-import space_saga1 from '../images/Space_Saga1.png'
-import space_saga2 from '../images/space_saga2.png'
-import vrem_home from '../images/vrem_homepage.png'
-import vrem_create from '../images/vrem_create_player.png'
-import vrem_adventure from '../images/vrem_adventure_screen.png'
-import vrem_combat from '../images/vrem_combat.png'
 
 const BioWrapper = styled.div`
     display: flex;
