@@ -1,6 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import './bio.css'
+import csharp_icon from "../images/csharp_icon.png"
+import ruby_icon from "../images/ruby_icon.png"
+import java_icon from "../images/java_icon.png"
+import javascript from "../images/javascript_icon.png"
+import python_icon from "../images/python_icon.png"
 
 const BioWrapper = styled.div`
     display: flex;
@@ -41,6 +46,13 @@ const Bio = () => {
             </TextContainer>
         <TextContainer>
             <p>Here are some of the codeing badges I have earned for my tech sash</p>
+            <ProjectImageContainer>
+                <Image src={csharp_icon} alt='csharp_icon' />
+                <Image src={ruby_icon} alt='ruby_icon' />
+                <Image src={java_icon} alt='java_icon' />
+                <Image src={javascript} alt='javascript_icon' />
+                <Image src={python_icon} alt='python_icon' />
+            </ProjectImageContainer>
         </TextContainer>
         <TextContainer>
             <h2>My Portfolio</h2>
