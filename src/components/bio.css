@@ -1,3 +1,7 @@
 #bioContainer {
     background: grey;
 }
+
+img:hover{
+    cursor: pointer;
+}

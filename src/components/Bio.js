@@ -6,6 +6,11 @@ import ruby_icon from "../images/ruby_icon.png"
 import java_icon from "../images/java_icon.png"
 import javascript from "../images/javascript_icon.png"
 import python_icon from "../images/python_icon.png"
+import flask_icon from "../images/flask_icon.png"
+import mongodb_icon from "../images/mongodb_icon.png"
+import postgresql_icon from "../images/postgresql_icon.png"
+import react_icon from "../images/react_icon.png"
+import spring_icon from "../images/spring_icon.png"
 
 const BioWrapper = styled.div`
     display: flex;
@@ -30,7 +35,8 @@ const ProjectImageContainer = styled.div`
     margin: 5px;
 `
 const Image = styled.img`
-    height: 300px;
+    height: 80px;
+
 `
 
 const Bio = () => {
@@ -47,11 +53,18 @@ const Bio = () => {
         <TextContainer>
             <p>Here are some of the codeing badges I have earned for my tech sash</p>
             <ProjectImageContainer>
-                <Image src={csharp_icon} alt='csharp_icon' />
-                <Image src={ruby_icon} alt='ruby_icon' />
-                <Image src={java_icon} alt='java_icon' />
-                <Image src={javascript} alt='javascript_icon' />
-                <Image src={python_icon} alt='python_icon' />
+                <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank"><Image src={csharp_icon} alt='csharp_icon' /></a>
+                <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" target="_blank"><Image src={ruby_icon} alt='ruby_icon' /></a>
+                <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank"><Image src={java_icon} alt='java_icon' /></a>
+                <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"><Image src={javascript} alt='javascript_icon' /></a>
+                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"><Image src={python_icon} alt='python_icon' /></a>
+            </ProjectImageContainer>
+            <ProjectImageContainer>
+                <a href="https://en.wikipedia.org/wiki/React_(software)" target="_blank"><Image src={react_icon} alt='react_icon' /></a>
+                <a href="https://en.wikipedia.org/wiki/Flask_(web_framework)" target="_blank"><Image src={flask_icon} alt='flask_icon' /></a>
+                <a href="https://en.wikipedia.org/wiki/MongoDB" target="_blank"><Image src={mongodb_icon} alt='mongodb_icon' /></a>
+                <a href="https://en.wikipedia.org/wiki/PostgreSQL" target="_blank"><Image src={postgresql_icon} alt='postgresql_icon' /></a>
+                <a href="https://en.wikipedia.org/wiki/Spring_Boot" target="_blank"><Image src={spring_icon} alt='spring_icon' /></a>   
             </ProjectImageContainer>
         </TextContainer>
         <TextContainer>
