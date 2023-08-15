@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import './Projects.css';
 import deathball_home from '../images/deathball_home.png'
@@ -46,7 +46,7 @@ const ProjectWrapper = styled.div`
 const ProjectContainer = styled.div`
     display: flex;
     flex-direction: column;
-    background: grey;
+    background: #07303e;
     width: 70%;
     border-radius: 5px;
     margin: 10px;
