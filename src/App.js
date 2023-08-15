@@ -1,15 +1,18 @@
 import React from 'react';
-import Header from './components/Header';
-import PortfolioMain from './containers/PortfolioMain';
+import Main from './containers/Main';
+import Header from './components/Header'
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <>
-      <div className="App">
-        <PortfolioMain/>
-        <h2>under constructions</h2>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Header/>
+          <Main/>
+        </div>
+      </BrowserRouter>
     </>
   );
 }

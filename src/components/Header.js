@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import './header.css';
 
@@ -20,7 +21,9 @@ const Header = () => {
     return (
         <>
         <HeaderWrapper>
+            <Link to='/James_Workshop'>
             <h1 className='logo'>James Workshops</h1>
+            </Link>
         </HeaderWrapper>
         </>
     );

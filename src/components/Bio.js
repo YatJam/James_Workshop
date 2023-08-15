@@ -20,6 +20,7 @@ const BioWrapper = styled.div`
 `
 
 const TextContainer = styled.div`
+    color: whitesmoke;
     display: flex;
     flex-direction: column;
     background: #07303e;
