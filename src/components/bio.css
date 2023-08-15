@@ -2,26 +2,13 @@
     background: grey;
 }
 
-.black_bar{
-    /* background: rgba(0,0,0,0.4); */
-    text-align: center;
-    /* color: transparent; */
-    margin-top: -60px;
-    font-family: Helvetica, Arial, sans-serif;
-    overflow: hidden;
-    font-size: 1.5rem;
-  }
-
 a {
-    text-decoration: none;
-    color: transparent;
-    border-radius: 5px;
+    border-radius: 5%;
 }
 
 a:hover {
     background-color: aquamarine;
-    color: black;
-    transition: all 2.0s ease;
+    transition: all 1.0s ease;
     cursor: pointer;
 }
 
